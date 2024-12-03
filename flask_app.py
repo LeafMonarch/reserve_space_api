@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 data = {
     "01/12/2024": [
-        {"P1105": "Booked"}, {"P1106": "Available"}, {"P1107": "Booked"}, {"P1108": "Available"}
+        {"P1105": "Booked"}, {"P1106": "Booked"}, {"P1107": "Booked"}, {"P1108": "Booked"}
     ],
     "02/12/2024": [
         {"P1105": "Available"}, {"P1106": "Available"}, {"P1107": "Available"}, {"P1108": "Booked"}
