@@ -22,6 +22,7 @@ data = {
 @app.route('/room_availability', methods=['GET'])
 def get_room_availability():
     date = request.args.get('date')
+    print(f"Received date: {date}")  # Add this for debugging
     if date in data:
         return jsonify({"date": date, "rooms": data[date]})
     else:
