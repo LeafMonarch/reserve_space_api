@@ -10,7 +10,7 @@ data = {
         {"room_id": "P1107", "status": "Booked", "student_id": "67890"},
         {"room_id": "P1108", "status": "Available", "student_id": None},
     ],
-    "2024-12-01": [
+    "2024-12-02": [
         {"room_id": "P1105", "status": "Available", "student_id": None},
         {"room_id": "P1106", "status": "Available", "student_id": None},
         {"room_id": "P1107", "status": "Available", "student_id": None},
