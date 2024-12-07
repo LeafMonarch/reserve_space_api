@@ -5,16 +5,16 @@ app = Flask(__name__)
 # Data structure to hold room availability and bookings
 data = {
     "2024-12-01": [
-        {"room_id": "P1105", "status": "Booked", "student_id": "12345"},
-        {"room_id": "P1106", "status": "Available", "student_id": None},
-        {"room_id": "P1107", "status": "Booked", "student_id": "67890"},
-        {"room_id": "P1108", "status": "Available", "student_id": None},
+        {"room_id": "P1105", "status": "Booked", "student_id": "12345", "image_url": "https://www.dkit.ie/assets/uploads/images/Library_585x300_v3.jpg"},
+        {"room_id": "P1106", "status": "Available", "student_id": None, "image_url": "https://www.dkit.ie/assets/uploads/images/Library_585x300_v3.jpg"},
+        {"room_id": "P1107", "status": "Booked", "student_id": "67890", "image_url": "https://www.dkit.ie/assets/uploads/images/Library_585x300_v3.jpg"},
+        {"room_id": "P1108", "status": "Available", "student_id": None, "image_url": "https://www.dkit.ie/assets/uploads/images/Library_585x300_v3.jpg"},
     ],
     "2024-12-02": [
-        {"room_id": "P1105", "status": "Available", "student_id": None},
-        {"room_id": "P1106", "status": "Available", "student_id": None},
-        {"room_id": "P1107", "status": "Available", "student_id": None},
-        {"room_id": "P1108", "status": "Booked", "student_id": "11111"},
+        {"room_id": "P1105", "status": "Available", "student_id": None, "image_url": "https://www.dkit.ie/assets/uploads/images/Library_585x300_v3.jpg"},
+        {"room_id": "P1106", "status": "Available", "student_id": None, "image_url": "https://www.dkit.ie/assets/uploads/images/Library_585x300_v3.jpg"},
+        {"room_id": "P1107", "status": "Available", "student_id": None, "image_url": "https://www.dkit.ie/assets/uploads/images/Library_585x300_v3.jpg"},
+        {"room_id": "P1108", "status": "Booked", "student_id": "11111", "image_url": "https://www.dkit.ie/assets/uploads/images/Library_585x300_v3.jpg"},
     ],
 }
 
