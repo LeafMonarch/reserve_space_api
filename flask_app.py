@@ -64,7 +64,11 @@ def get_student_bookings():
     for date, rooms in data.items():
         for room in rooms:
             if room["student_id"] == student_id:
-                bookings.append({"date": date, "room_id": room["room_id"], "image_url": room.get("image_url", "https://via.placeholder.com/150")})
+                bookings.append({
+                    "date": date, 
+                    "room_id": room["room_id"], 
+                    "status": room["status"],
+                    "image_url": room.get("image_url", "https://via.placeholder.com/150")})
 
     return jsonify({"student_id": student_id, "bookings": bookings})
 
